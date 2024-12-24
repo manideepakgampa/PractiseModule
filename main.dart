@@ -6,7 +6,11 @@ main() {
 import 'dart:io';
 
 void main() {
-  stdout.writeln("Enter you name: ");
-  var name = stdin.readLineSync();
-  print('My name is $name');
+  stdout.writeln("Enter your name: ");
+  var name = stdin.readLineSync() ?? 'Unknown';
+
+  stdout.writeln("Enter the number: ");
+  int i = int.tryParse(stdin.readLineSync() ?? "") ?? 0;
+
+  print('My name is $name and The Number is $i');
 }
