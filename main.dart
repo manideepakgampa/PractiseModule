@@ -27,17 +27,27 @@ void main() {
   // stdout.writeln(y.runtimeType);
   // stdout.writeln(onepone.runtimeType);
 
-  var x = 1;
-  var y = 3.14156;
+  // var x = 1;
+  // var y = 3.14156;
 
-  var one = x.toString();
-  assert(one == '1');
-  var onepone = y.toStringAsFixed(2);
-  assert(onepone == '3.14');
+  // var one = x.toString();
+  // assert(one == '1');
+  // var onepone = y.toStringAsFixed(2);
+  // assert(onepone == '3.14');
 
-  stdout.writeln(x.runtimeType);
-  stdout.writeln(one.runtimeType);
+  // stdout.writeln(x.runtimeType);
+  // stdout.writeln(one.runtimeType);
 
-  stdout.writeln(y.runtimeType);
-  stdout.writeln(onepone.runtimeType);
+  // stdout.writeln(y.runtimeType);
+  // stdout.writeln(onepone.runtimeType);
+  var x = nums();
+  print(x);
+}
+
+int nums() {
+  var a = 10;
+  var b = 20;
+  var c = 30;
+  var d = 40;
+  return a + b + c + d;
 }
