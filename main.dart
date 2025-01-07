@@ -48,6 +48,15 @@ void main() {
   print(x);
 }
 
-int nums(int a, int b, int c, int d) {
-  return a + b + c + d;
+String nums(int a, int b, int c, int d) {
+  if (a > b && a > c && a > d)
+    return 'a is greater than b, c and d';
+  else if (b > a && b > c && b > d)
+    return 'b is greater than a, c and d';
+  else if (c > a && c > b && c > d)
+    return 'c is greater than a, b and d';
+  else if (d > a && d > b && d > c)
+    return 'd is greater than a, b and c';
+  else
+    return 'All are equal';
 }
