@@ -40,14 +40,14 @@ void main() {
 
   // stdout.writeln(y.runtimeType);
   // stdout.writeln(onepone.runtimeType);
-  var x = nums();
-  print(x);
-}
-
-int nums() {
   var a = 10;
   var b = 20;
   var c = 30;
   var d = 40;
+  var x = nums(a, b, c, d);
+  print(x);
+}
+
+int nums(int a, int b, int c, int d) {
   return a + b + c + d;
 }
