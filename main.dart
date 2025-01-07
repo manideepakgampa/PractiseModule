@@ -3,7 +3,6 @@ main() {
   print("hello");
 }
 */
-import 'dart:io';
 
 void main() {
   // stdout.writeln("Enter your name: ");
@@ -40,23 +39,17 @@ void main() {
 
   // stdout.writeln(y.runtimeType);
   // stdout.writeln(onepone.runtimeType);
-  var a = 10;
-  var b = 20;
-  var c = 30;
-  var d = 40;
-  var x = nums(a, b, c, d);
+  var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  var x = nums(a);
   print(x);
 }
 
-String nums(int a, int b, int c, int d) {
-  if (a > b && a > c && a > d)
-    return 'a is greater than b, c and d';
-  else if (b > a && b > c && b > d)
-    return 'b is greater than a, c and d';
-  else if (c > a && c > b && c > d)
-    return 'c is greater than a, b and d';
-  else if (d > a && d > b && d > c)
-    return 'd is greater than a, b and c';
-  else
-    return 'All are equal';
+String nums(var a) {
+  var e = [];
+  for (var i = 0; i < a.length; i++) {
+    if (a[i] % 2 == 0) {
+      e.add(a[i]);
+    }
+  }
+  return 'The Even Numbers are: $e';
 }
