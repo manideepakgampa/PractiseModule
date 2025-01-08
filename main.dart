@@ -4,6 +4,8 @@ main() {
 }
 */
 
+import 'dart:math';
+
 void main() {
   // stdout.writeln("Enter your name: ");
   // var name = stdin.readLineSync() ?? 'Unknown';
@@ -58,7 +60,9 @@ void main() {
   //   print(a[i]);
   // }
   // for in loop
-  for (var i in a) {
-    print(i);
-  }
+  // for (var i in a) {
+  //   print(i);
+  // }
+  // forEach loop
+  a.forEach((i) => print(pow(i, 2)));
 }
