@@ -55,7 +55,6 @@ void main() {
 //   }
 //   return 'The Even Numbers are: $e';
 // for loop
-//var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (var i = 0; i < a.length; i++) {
 //   print(a[i]);
 // }
@@ -71,4 +70,11 @@ void main() {
 //   print(a[i]);
 //   i++;
 // }
+//do while loop
+  var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  var i = 0;
+  do {
+    print(a[i]);
+    i++;
+  } while (i < a.length);
 }
