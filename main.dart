@@ -4,7 +4,7 @@ main() {
 }
 */
 
-import 'dart:math';
+//import 'dart:math';
 
 void main() {
   // stdout.writeln("Enter your name: ");
@@ -55,14 +55,20 @@ void main() {
 //   }
 //   return 'The Even Numbers are: $e';
 // for loop
-  var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  // for (var i = 0; i < a.length; i++) {
-  //   print(a[i]);
-  // }
-  // for in loop
-  // for (var i in a) {
-  //   print(i);
-  // }
-  // forEach loop
-  a.forEach((i) => print(pow(i, 2)));
+//var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (var i = 0; i < a.length; i++) {
+//   print(a[i]);
+// }
+// for in loop
+// for (var i in a) {
+//   print(i);
+// }
+// forEach loop
+// a.forEach((i) => print(pow(i, 2)));
+//while loop
+//var i = 0;
+// while (i < a.length) {
+//   print(a[i]);
+//   i++;
+// }
 }
