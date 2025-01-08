@@ -75,6 +75,9 @@ void main() {
   var i = 0;
   do {
     print(a[i]);
+    if (a[i] == 3) {
+      break;
+    }
     i++;
   } while (i < a.length);
 }
