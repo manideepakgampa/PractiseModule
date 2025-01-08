@@ -39,17 +39,22 @@ void main() {
 
   // stdout.writeln(y.runtimeType);
   // stdout.writeln(onepone.runtimeType);
-  var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  var x = nums(a);
-  print(x);
-}
+//   var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   var x = nums(a);
+//   print(x);
+// }
 
-String nums(var a) {
-  var e = [];
+// String nums(var a) {
+//   var e = [];
+//   for (var i = 0; i < a.length; i++) {
+//     if (a[i] % 2 == 0) {
+//       e.add(a[i]);
+//     }
+//   }
+//   return 'The Even Numbers are: $e';
+// for loop
+  var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   for (var i = 0; i < a.length; i++) {
-    if (a[i] % 2 == 0) {
-      e.add(a[i]);
-    }
+    print(a[i]);
   }
-  return 'The Even Numbers are: $e';
 }
