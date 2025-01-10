@@ -80,6 +80,12 @@ void main() {
   //   }
   //   i++;
   // } while (i < a.length);
-  List names = ['Jack', 'Jill', 'John'];
+
+  //COLLECTIONS
+  //List
+  // List names = ['Jack', 'Jill', 'John']; // List or var
+  // print(names);
+  //Set
+  var names = {1, 2, 3, 4, 5}; // Set or var
   print(names);
 }
