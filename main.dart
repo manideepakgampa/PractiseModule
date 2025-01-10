@@ -71,13 +71,15 @@ void main() {
 //   i++;
 // }
 //do while loop
-  var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  var i = 0;
-  do {
-    print(a[i]);
-    if (a[i] == 3) {
-      break;
-    }
-    i++;
-  } while (i < a.length);
+  // var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  // var i = 0;
+  // do {
+  //   print(a[i]);
+  //   if (a[i] == 3) {
+  //     break;
+  //   }
+  //   i++;
+  // } while (i < a.length);
+  List names = ['Jack', 'Jill', 'John'];
+  print(names);
 }
