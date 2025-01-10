@@ -86,6 +86,9 @@ void main() {
   // List names = ['Jack', 'Jill', 'John']; // List or var
   // print(names);
   //Set
-  var names = {1, 2, 3, 4, 5}; // Set or var
+  // var names = {1, 2, 3, 4, 5}; // Set or var
+  // print(names);
+  //Map
+  var names = {'name': 'Jack', 'age': 23}; // Map or var
   print(names);
 }
