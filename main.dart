@@ -110,8 +110,16 @@ void main() {
 //   return pow(n, 2);
 // }
 //Arrow Function
-  dynamic sum(var a, var b) => a + b;
-  print(sum(12, 2));
-  dynamic sub(var a, var b) => a - b;
-  print(sub(12, 2));
+  // dynamic sum(var a, var b) => a + b;
+  // print(sum(12, 2));
+  // dynamic sub(var a, var b) => a - b;
+  // print(sub(12, 2));
+
+  var lst = ['apple', 'banana', 'cherry'];
+  lst.forEach((element) => print(element));
+
+  var lst1 = [1, 2, 3, 4, 5];
+  lst1.forEach((i) {
+    print(i * i);
+  });
 }
