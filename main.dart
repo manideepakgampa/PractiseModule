@@ -115,11 +115,13 @@ void main() {
   // dynamic sub(var a, var b) => a - b;
   // print(sub(12, 2));
 
-  var lst = ['apple', 'banana', 'cherry'];
-  lst.forEach((element) => print(element));
+//   var lst = ['apple', 'banana', 'cherry'];
+//   lst.forEach((element) => print(element));
 
-  var lst1 = [1, 2, 3, 4, 5];
-  lst1.forEach((i) {
-    print(i * i);
-  });
+//   var lst1 = [1, 2, 3, 4, 5];
+//   lst1.forEach((i) {
+//     print(i * i);
+//   });
+  // dynamic sum(var a, {var b}) => a + (b ?? 0);
+  // print(sum(12));
 }
