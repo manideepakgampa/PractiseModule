@@ -6,8 +6,7 @@ main() {
 
 //import 'dart:math';
 
-import 'dart:io';
-import 'dart:math';
+//import 'dart:io';
 
 void main() {
   // stdout.writeln("Enter your name: ");
@@ -94,18 +93,25 @@ void main() {
   //Map
   // var names = {'name': 'Jack', 'age': 23}; // Map or var
   // print(names);
-  stdout.writeln("Enter the number: ");
-  var a = stdin.readLineSync();
-  var n = int.parse(a!);
-  print(fun1(fun2(n)));
-}
+  //Functions
+//   stdout.writeln("Enter the number: ");
+//   var a = stdin.readLineSync();
+//   var n = int.parse(a!);
+//   print(fun1(fun2(n)));
+// }
 
-dynamic fun1(var num) {
-  print(num * num);
-  return num * num;
-}
+// dynamic fun1(var num) {
+//   print(num * num);
+//   return num * num;
+// }
 
-dynamic fun2(var n) {
-  print(pow(n, 2));
-  return pow(n, 2);
+// dynamic fun2(var n) {
+//   print(pow(n, 2));
+//   return pow(n, 2);
+// }
+//Arrow Function
+  dynamic sum(var a, var b) => a + b;
+  print(sum(12, 2));
+  dynamic sub(var a, var b) => a - b;
+  print(sub(12, 2));
 }
