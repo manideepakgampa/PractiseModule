@@ -8,41 +8,41 @@ main() {
 
 //import 'dart:io';
 
-void main() {
-  // stdout.writeln("Enter your name: ");
-  // var name = stdin.readLineSync() ?? 'Unknown';
+// void main() {
+// stdout.writeln("Enter your name: ");
+// var name = stdin.readLineSync() ?? 'Unknown';
 
-  // stdout.writeln("Enter the number: ");
-  // int i = int.tryParse(stdin.readLineSync() ?? "") ?? 0;
+// stdout.writeln("Enter the number: ");
+// int i = int.tryParse(stdin.readLineSync() ?? "") ?? 0;
 
-  // print('My name is $name and The Number is $i');
-  // var x = '1';
-  // var y = '1.1';
+// print('My name is $name and The Number is $i');
+// var x = '1';
+// var y = '1.1';
 
-  // var one = int.parse(x);
-  // assert(one == 1);
-  // var onepone = double.parse(y);
-  // assert(onepone == 1.1);
+// var one = int.parse(x);
+// assert(one == 1);
+// var onepone = double.parse(y);
+// assert(onepone == 1.1);
 
-  // stdout.writeln(x.runtimeType);
-  // stdout.writeln(one.runtimeType);
+// stdout.writeln(x.runtimeType);
+// stdout.writeln(one.runtimeType);
 
-  // stdout.writeln(y.runtimeType);
-  // stdout.writeln(onepone.runtimeType);
+// stdout.writeln(y.runtimeType);
+// stdout.writeln(onepone.runtimeType);
 
-  // var x = 1;
-  // var y = 3.14156;
+// var x = 1;
+// var y = 3.14156;
 
-  // var one = x.toString();
-  // assert(one == '1');
-  // var onepone = y.toStringAsFixed(2);
-  // assert(onepone == '3.14');
+// var one = x.toString();
+// assert(one == '1');
+// var onepone = y.toStringAsFixed(2);
+// assert(onepone == '3.14');
 
-  // stdout.writeln(x.runtimeType);
-  // stdout.writeln(one.runtimeType);
+// stdout.writeln(x.runtimeType);
+// stdout.writeln(one.runtimeType);
 
-  // stdout.writeln(y.runtimeType);
-  // stdout.writeln(onepone.runtimeType);
+// stdout.writeln(y.runtimeType);
+// stdout.writeln(onepone.runtimeType);
 //   var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 //   var x = nums(a);
 //   print(x);
@@ -73,27 +73,27 @@ void main() {
 //   i++;
 // }
 //do while loop
-  // var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  // var i = 0;
-  // do {
-  //   print(a[i]);
-  //   if (a[i] == 3) {
-  //     break;
-  //   }
-  //   i++;
-  // } while (i < a.length);
+// var a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var i = 0;
+// do {
+//   print(a[i]);
+//   if (a[i] == 3) {
+//     break;
+//   }
+//   i++;
+// } while (i < a.length);
 
-  //COLLECTIONS
-  //List
-  // List names = ['Jack', 'Jill', 'John']; // List or var
-  // print(names);
-  //Set
-  // var names = {1, 2, 3, 4, 5}; // Set or var
-  // print(names);
-  //Map
-  // var names = {'name': 'Jack', 'age': 23}; // Map or var
-  // print(names);
-  //Functions
+//COLLECTIONS
+//List
+// List names = ['Jack', 'Jill', 'John']; // List or var
+// print(names);
+//Set
+// var names = {1, 2, 3, 4, 5}; // Set or var
+// print(names);
+//Map
+// var names = {'name': 'Jack', 'age': 23}; // Map or var
+// print(names);
+//Functions
 //   stdout.writeln("Enter the number: ");
 //   var a = stdin.readLineSync();
 //   var n = int.parse(a!);
@@ -110,10 +110,10 @@ void main() {
 //   return pow(n, 2);
 // }
 //Arrow Function
-  // dynamic sum(var a, var b) => a + b;
-  // print(sum(12, 2));
-  // dynamic sub(var a, var b) => a - b;
-  // print(sub(12, 2));
+// dynamic sum(var a, var b) => a + b;
+// print(sum(12, 2));
+// dynamic sub(var a, var b) => a - b;
+// print(sub(12, 2));
 
 //   var lst = ['apple', 'banana', 'cherry'];
 //   lst.forEach((element) => print(element));
@@ -122,6 +122,20 @@ void main() {
 //   lst1.forEach((i) {
 //     print(i * i);
 //   });
-  // dynamic sum(var a, {var b}) => a + (b ?? 0);
-  // print(sum(12));
+// dynamic sum(var a, {var b}) => a + (b ?? 0);
+// print(sum(12));
+// }
+class Person {
+  String name;
+  int age;
+  Person(this.name, [this.age = 20]);
+  void showOutput() {
+    print(name);
+    print(age);
+  }
+}
+
+void main() {
+  var p1 = Person('Jack', 24);
+  p1.showOutput();
 }
