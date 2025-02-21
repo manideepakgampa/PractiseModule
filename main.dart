@@ -124,18 +124,18 @@ main() {
 //   });
 // dynamic sum(var a, {var b}) => a + (b ?? 0);
 // print(sum(12));
+// // }
+// class Person {
+//   String name;
+//   int age;
+//   Person(this.name, [this.age = 20]);
+//   void showOutput() {
+//     print(name);
+//     print(age);
+//   }
 // }
-class Person {
-  String name;
-  int age;
-  Person(this.name, [this.age = 20]);
-  void showOutput() {
-    print(name);
-    print(age);
-  }
-}
 
-void main() {
-  var p1 = Person('Jack', 24);
-  p1.showOutput();
-}
+// void main() {
+//   var p1 = Person('Jack', 24);
+//   p1.showOutput();
+// }
