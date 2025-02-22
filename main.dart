@@ -153,8 +153,11 @@ class Car extends Vehicle {
   int year;
 
   Car(String name, int model, this.year) : super(name, model);
+
+  @override
   void showOutput() {
-    super.showOutput();
+    print(name);
+    print(model);
     print(year);
   }
 }
