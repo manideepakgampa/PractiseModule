@@ -139,3 +139,27 @@ main() {
 //   var p1 = Person('Jack', 24);
 //   p1.showOutput();
 // }
+class Vehicle {
+  String name;
+  int model;
+  Vehicle(this.name, this.model);
+  void showOutput() {
+    print(name);
+    print(model);
+  }
+}
+
+class Car extends Vehicle {
+  int year;
+
+  Car(String name, int model, this.year) : super(name, model);
+  void showOutput() {
+    super.showOutput();
+    print(year);
+  }
+}
+
+void main() {
+  var c1 = Car('BMW', 2018, 2021);
+  c1.showOutput();
+}
